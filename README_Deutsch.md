@@ -13,6 +13,8 @@ gängigen Git-Sachen ab, so dass es trotzdem lesenswert sein könnte.*
 Sehen Sie sich die übersetzten Versionen an:
 
 - [English](https://github.com/rlDruDo/gittut)
+- [Ελληνικά](https://github.com/rlDruDo/gittut/blob/master/README_Greek.md)
+- [Español](https://github.com/rlDruDo/gittut/blob/master/README_spanish.md)
 
 ## Was ist Git?
 

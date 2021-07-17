@@ -12,29 +12,28 @@ Server*](https://discord.gg/fgbkwpg9Nw) *για να βοηθήσει τους �
 
 Ελέγξτε τις μεταφρασμένες εκδόσεις:
 
+- [English](https://github.com/rlDruDo/gittut)
+- [Deutsch](https://github.com/rlDruDo/gittut/blob/master/README_Deutsch.md)
+- [Español](https://github.com/rlDruDo/gittut/blob/master/README_spanish.md)
+
 ## Τι είναι το git;
 
-> Το Git είναι ένα λογισμικό για την παρακολούθηση των αλλαγών σε
-> οποιοδήποτε σύνολο αρχείων, το οποίο χρησιμοποιείται συνήθως για το
-> συντονισμό της εργασίας μεταξύ προγραμματιστών που αναπτύσσουν
-> συνεργατικά τον πηγαίο κώδικα κατά τη διάρκεια της ανάπτυξης
-> λογισμικού. Στους στόχους του περιλαμβάνονται η ταχύτητα, η
-> ακεραιότητα των δεδομένων και η υποστήριξη κατανεμημένων, μη γραμμικών
-> ροών εργασίας (χιλιάδες παράλληλες διακλαδώσεις που εκτελούνται σε
-> διαφορετικά συστήματα).\
+> Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems.\
 > [Wikipedia Git](https://en.wikipedia.org/wiki/Git)
 
 Αν θα έπρεπε να το εξηγήσετε σε κάποιον που δεν έχει ιδέα για όλα αυτά,
-θα έλεγα: \> Το Git είναι ένα εργαλείο για την παρακολούθηση αλλαγών σε
+θα έλεγα: 
+> Το Git είναι ένα εργαλείο για την παρακολούθηση αλλαγών σε
 αρχεία και είναι πραγματικά εξαιρετικό για ομαδικά έργα.
 
 Υπάρχουν πολλοί διαφορετικοί ιστότοποι που προσφέρουν διακομιστές (για
 δωρεάν και επί πληρωμή εκδόσεις) όπου μπορείτε να ανεβάσετε τα
 `αποθετήριά `σας ή αλλιώς τους φακέλους σας και να διατηρήσετε ένα έργο.
 
-Μερικά παραδείγματα: - [GitHub](https://github.com) -
-[GitLab](https://about.gitlab.com) -
-[Bitbucket](https://bitbucket.org/product)
+Μερικά παραδείγματα: 
+- [GitHub](https://github.com) 
+- [GitLab](https://about.gitlab.com) 
+- [Bitbucket](https://bitbucket.org/product)
 
 Αλλά είναι επίσης δυνατό να τρέξετε το δικό σας διακομιστή git σε ένα
 RaspberryPi για παράδειγμα.
@@ -181,20 +180,17 @@ Llama](https://discord.gg/fgbkwpg9Nw) χρησιμοποιούν αυτά τα �
 εισάγοντας το `git status`\
 Αυτή η εντολή εκτυπώνει την κατάσταση του git αποθετηρίου σας. Έτσι
 φαίνεται το δικό μου:\
-![gitstatus](media/rId342.png){width="5.638888888888889in"
-height="1.4722222222222223in"}
+![gitstatus](screens/gitstatus.png)
 
 Τώρα πρέπει να δεσμεύσουμε τα αρχεία με ένα μήνυμα δέσμευσης, για να το
 κάνουμε αυτό, πληκτρολογήστε `git commit -m "Your Commit Message"`\
 Το μήνυμα δέσμευσης θα πρέπει να είναι μια **σύντομη** περίληψη των
-αλλαγών σας. Ίσως να θέλετε να σκεφτείτε να χρησιμοποιήσετε [το
-gitmoji](https://gitmoji.dev).
+αλλαγών σας. Ίσως να θέλετε να σκεφτείτε να χρησιμοποιήσετε το [gitmoji](https://gitmoji.dev).
 
 Τέλος, μπορείτε να ανεβάσετε τα αρχεία σας χρησιμοποιώντας το
 `git push`\
 Αν λαμβάνετε ένα μήνυμα σφάλματος όπως αυτό:\
-![errorgitpush](media/rId36.png){width="5.833333333333333in"
-height="0.8655905511811024in"}
+![errorgitpush](screens/error_gitpush.png)
 
 Στη συνέχεια, εισάγετε την εντολή που φαίνεται αλλιώς
 `git push --set-upstream origin master`
@@ -214,8 +210,7 @@ height="0.8655905511811024in"}
 Μπορείτε επίσης να προσθέσετε το δοκιμαστικό αρχείο που δημιουργήθηκε
 νωρίτερα κάνοντας κλικ σε αυτό το αρχείο και στη συνέχεια κάνοντας κλικ
 στο μολύβι στη δεξιά πλευρά. Αυτό στη μέση εδώ:\
-![pencil](media/rId373.png){width="1.496502624671916in"
-height="0.6433562992125984in"}
+![pencil](screens/pencil.png)
 
 3.  Πηγαίνετε τώρα στο κάτω μέρος της σελίδας και πατήστε
     `Commit Changes`
@@ -231,7 +226,7 @@ height="0.6433562992125984in"}
 
 Επίσης: Εύκολο.
 
-Πλοηγηθείτε στον επιθυμητό φάκελο και εισάγετε τον `σύνδεσμο git clone`\
+Πλοηγηθείτε στον επιθυμητό φάκελο και εισάγετε τον `git clone link`\
 Π.χ. `git clone https://github.com/SuitedLlama/An-Edible-World`
 
 Ξέρετε ότι έχετε εγκαταστήσει αυτό το αποθετήριο.

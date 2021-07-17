@@ -12,28 +12,28 @@ modos.*
 
 Consulte las versiones traducidas:
 
+- [English](https://github.com/rlDruDo/gittut)
+- [Deutsch](https://github.com/rlDruDo/gittut/blob/master/README_Deutsch.md)
+- [Ελληνικά](https://github.com/rlDruDo/gittut/blob/master/README_Greek.md)
+
 ## ¿Qué es git?
 
-> Git es un software para el seguimiento de los cambios en cualquier
-> conjunto de archivos, que suele utilizarse para coordinar el trabajo
-> entre los programadores que desarrollan el código fuente en
-> colaboración durante el desarrollo de software. Sus objetivos son la
-> velocidad, la integridad de los datos y el soporte de flujos de
-> trabajo distribuidos y no lineales (miles de ramas paralelas que se
-> ejecutan en diferentes sistemas)\
+> Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems)\
 > [Wikipedia Git](https://en.wikipedia.org/wiki/Git)
 
 Si tuviera que explicárselo a alguien que no tiene ni idea de nada de
-eso, le diría: \> Git es una herramienta para el seguimiento de los
+eso, le diría: 
+> Git es una herramienta para el seguimiento de los
 cambios en los archivos y realmente genial para los proyectos en equipo.
 
 Hay muchos sitios web diferentes que ofrecen servidores (para las
 versiones gratuitas y de pago) donde puedes subir tus `repositorios`, es
 decir, tus carpetas y mantener un proyecto.
 
-Algunos ejemplos: - [GitHub](https://github.com) -
-[GitLab](https://about.gitlab.com) -
-[Bitbucket](https://bitbucket.org/product)
+Algunos ejemplos: 
+- [GitHub](https://github.com) 
+- [GitLab](https://about.gitlab.com) 
+- [Bitbucket](https://bitbucket.org/product)
 
 Pero también es posible ejecutar tu propio servidor git en una
 RaspberryPi, por ejemplo.
@@ -91,7 +91,7 @@ Empecemos:
     guía](https://towardsdatascience.com/a-quick-guide-to-using-command-line-terminal-96815b97b955).
 
     2.3. MacOS: Para abrir el Terminal en MacOS presiona `cmd+espacio `y
-    entra en `Terminalpresiona ``Enter `de nuevo y aparecerá una nueva
+    entra en `Terminal presiona` Enter de nuevo y aparecerá una nueva
     ventana. Si esto no funciona, consulte [esta
     guía](https://towardsdatascience.com/a-quick-guide-to-using-command-line-terminal-96815b97b955).
 
@@ -174,8 +174,7 @@ Después de añadir todos tus archivos puedes comprobar si ha funcionado
 introduciendo `git status`\
 Este comando muestra el estado de tu repositorio git. Así es como se ve
 el mío:\
-![gitstatus](media/rId342.png){width="5.638888888888889in"
-height="1.4722222222222223in"}
+![gitstatus](screens/gitstatus.png)
 
 Ahora tenemos que confirmar los archivos con un mensaje de confirmación,
 para ello introduzca `git commit -m "Su mensaje de confirmación"`\
@@ -184,8 +183,7 @@ cambios. Puedes considerar el uso de [gitmoji](https://gitmoji.dev).
 
 Finalmente puedes subir tus archivos usando `git push`\
 Si recibes un mensaje de error como este\
-![errorgitpush](media/rId36.png){width="5.833333333333333in"
-height="0.8655905511811024in"}
+![errorgitpush](screens/error_gitpush.png)
 
 A continuación, introduzca el comando que se muestra como
 `git push --set-upstream origin master`
@@ -205,8 +203,7 @@ Fácil.
 También puede añadir el archivo de prueba creado anteriormente haciendo
 clic en este archivo y luego en el lápiz de la derecha. El que está en
 el centro aquí:\
-![pencil](media/rId373.png){width="1.496502624671916in"
-height="0.6433562992125984in"}
+![pencil](screens/pencil.png)
 
 3.  Ahora vaya al final de la página y pulse `Confirmar cambios`
 
@@ -221,7 +218,7 @@ Ahora ha simulado un cambio de un miembro del equipo.
 
 También: Fácil.
 
-Navega hasta la carpeta deseada e introduce el `enlace git clone`\
+Navega hasta la carpeta deseada e introduce el `git clone link`\
 `Por `ejemplo,
 `git clone https://github.com/SuitedLlama/An-Edible-World`
 
