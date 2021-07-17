@@ -8,6 +8,9 @@ _Disclaimer: This was made for the [Suited Llama Discord Server](https://discord
 
 Check out translated Versions:
 
+- [Deutsch](https://github.com/rlDruDo/gittut/blob/master/README_Deutsch.md)
+- [Ελληνικά](https://github.com/rlDruDo/gittut/blob/master/README_Greek.md)
+- [Español](https://github.com/rlDruDo/gittut/blob/master/README_spanish.md)
 
 ## What is git?
 
